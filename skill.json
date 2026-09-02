@@ -1,0 +1,41 @@
+{
+  "name": "genpark-autonomous-multi-agent-debate-consensus-protocol-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Autonomous multi-agent debate consensus protocol orchestrating cross-agent reasoning rounds, thesis-antithesis synthesis, and converged plans.",
+  "author": "genpark",
+  "category": "agent-orchestration",
+  "tags": [
+    "multi-agent-debate",
+    "consensus-protocol",
+    "agent-coordination",
+    "thesis-antithesis",
+    "autonomous-planning"
+  ],
+  "inputs": {
+    "problem_statement": {
+      "type": "string"
+    },
+    "participating_agent_roles": {
+      "type": "array"
+    },
+    "max_debate_rounds": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "consensus_session_id": {
+      "type": "string"
+    },
+    "consensus_verdict": {
+      "type": "string"
+    },
+    "inter_agent_agreement_score_pct": {
+      "type": "number"
+    },
+    "debate_transcript_log_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
